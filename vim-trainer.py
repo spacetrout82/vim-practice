@@ -53,6 +53,7 @@ exercises: List[Dict[str, any]] = [
     {'desc': 'Delete line (dd)', 'sequence': ['d', 'd']},
     {'desc': 'Change word (cw)', 'sequence': ['c', 'w']},
     {'desc': 'Change quotes (ci")', 'sequence': ['c', 'i', '"']},
+    {'desc': 'Change Sq.  (ci[)', 'sequence': ['c', 'i', '[']},
     {'desc': 'Yank line (yy)', 'sequence': ['y', 'y']},
     {'desc': 'Paste after (p)', 'sequence': ['p']},
     {'desc': 'Undo (u)', 'sequence': ['u']},
