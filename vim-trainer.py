@@ -116,7 +116,7 @@ def main(stdscr):
             row = 0
             nonlocal current_line
             current_line = 0
-            safe_print("=== SCREEN REFRESH ===", row, 0, 3)
+            safe_print("=== NEW PAGE, KEEP GOING! ===", row, 0, 3)
             row += 1
         
         try:
